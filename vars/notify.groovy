@@ -1,3 +1,5 @@
-def call(String message = "Build completed") {
-    echo "Sending Notification: ${message}"
+def call(String message = "Pipeline finished") {
+    echo "🔔 Notification: ${message}"
 }
+
+
